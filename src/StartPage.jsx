@@ -40,6 +40,7 @@ const StartPage = ({ onStart }) => {
         <h3>Qoidalar:</h3>
         <ul>
           <li>❗ Har bir savol uchun 20 sekund vaqt ajratilgan</li>
+          <li>❗ Testda 38 dona savol mavjud</li>
           <li>
             ❗ Har bir savoldagi variantni vaqt tugashidan oldin belgilang
           </li>
@@ -58,7 +59,7 @@ const StartPage = ({ onStart }) => {
           <li className="luck">
             Sizga <b>omad</b> tilaymiz ✔️
           </li>
-        </ul> 
+        </ul>
       </Modal>
     </div>
   );
