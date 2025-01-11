@@ -121,7 +121,8 @@ const quizData = [
     ans: 1,
   },
   {
-    question: "HTMLda qo'shib bo'lmaydigan ramka uchun qaysi atribut ishlatiladi?",
+    question:
+      "HTMLda qo'shib bo'lmaydigan ramka uchun qaysi atribut ishlatiladi?",
     option1: "border=0",
     option2: "borderless",
     option3: "noborder",
@@ -152,7 +153,57 @@ const quizData = [
     option4: "<finish>",
     ans: 1,
   },
-
+  {
+    question:
+      "HTMLda table teglarining qaysi atributi jadvalni sarlavha qatorini belgilaydi?",
+    option1: "thead",
+    option2: "tr",
+    option3: "th",
+    option4: "table",
+    ans: 1,
+  },
+  {
+    question: "HTMLda qaysi teg matnni o'rtaga joylashtiradi?",
+    option1: "<center>",
+    option2: "<align>",
+    option3: "<middle>",
+    option4: "<justify>",
+    ans: 1,
+  },
+  {
+    question:
+      "HTMLda hujjatning kiritilgan qismida kodlar boshqariladi, qaysi teg uni belgilaydi?",
+    option1: "<script>",
+    option2: "<head>",
+    option3: "<body>",
+    option4: "<footer>",
+    ans: 1,
+  },
+  {
+    question:
+      "HTMLda rasmni o'lchamlarini belgilash uchun qaysi atribut ishlatiladi?",
+    option1: "width, height",
+    option2: "src, alt",
+    option3: "size, dimension",
+    option4: "img, size",
+    ans: 1,
+  },
+  {
+    question: "Shu yerdan toq teg qaysi",
+    option1: "<b>",
+    option2: "<br>",
+    option3: "<hr>",
+    option4: "<h1>",
+    ans: 3,
+  },
+  {
+    question: "Faviconlarni qaysi saytdan olamiz",
+    option1: "favicon.com",
+    option2: "favicon.ico",
+    option3: "favicon.org",
+    option4: "favicon.io",
+    ans: 4,
+  },
   // CSS savollari
   {
     question: "CSSda qaysi teg rangni belgilaydi?",
@@ -211,7 +262,8 @@ const quizData = [
     ans: 1,
   },
   {
-    question: "CSSda matnning ustiga chiziq chizish uchun qaysi xususiyat ishlatiladi?",
+    question:
+      "CSSda matnning ustiga chiziq chizish uchun qaysi xususiyat ishlatiladi?",
     option1: "line-through",
     option2: "text-decoration",
     option3: "decoration-line",
@@ -243,7 +295,8 @@ const quizData = [
     ans: 4,
   },
   {
-    question: "CSSda elementning hajmini belgilash uchun qaysi xususiyat ishlatiladi?",
+    question:
+      "CSSda elementning hajmini belgilash uchun qaysi xususiyat ishlatiladi?",
     option1: "size",
     option2: "width",
     option3: "height",
@@ -267,7 +320,8 @@ const quizData = [
     ans: 4,
   },
   {
-    question: "CSSda tashqi oraliqni belgilash uchun qaysi xususiyat ishlatiladi?",
+    question:
+      "CSSda tashqi oraliqni belgilash uchun qaysi xususiyat ishlatiladi?",
     option1: "padding",
     option2: "margin",
     option3: "outline",
@@ -291,19 +345,69 @@ const quizData = [
     ans: 1,
   },
   {
-    question: "CSSda inline elementni blokga aylantirish uchun nima ishlatiladi?",
+    question:
+      "CSSda inline elementni blokga aylantirish uchun qaysi xususiyat ishlatiladi?",
     option1: "display: block",
-    option2: "display: inline-block",
-    option3: "float: block",
-    option4: "position: block",
+    option2: "display: inline",
+    option3: "float: left",
+    option4: "block",
     ans: 1,
   },
   {
-    question: "CSSda absolyut joylashuv uchun qaysi qiymat ishlatiladi?",
-    option1: "position: absolute",
-    option2: "position: fixed",
-    option3: "position: relative",
-    option4: "position: static",
+    question: "CSSda 'transition' xususiyatini ishlatish nima uchun?",
+    option1: "Animatsiya qo'shish",
+    option2: "Ranglarni o'zgartirish",
+    option3: "Tezlikni o'zgartirish",
+    option4: "Ko'rinishni saqlash",
+    ans: 1,
+  },
+  {
+    question:
+      "CSSda hover holatida rangni o'zgartirish uchun qanday xususiyat ishlatiladi?",
+    option1: ":hover",
+    option2: ":focus",
+    option3: ":active",
+    option4: ":target",
+    ans: 1,
+  },
+  {
+    question: "Css da translate xususiyati nima vazifani bajaradi",
+    option1: "element hajmini o'zgartiradi",
+    option2: "element ko'rinishini o'zgartiradi",
+    option3: "elementni o'ng chapga suradi",
+    option4: "element joylashuvini o'zgartiradi",
+    ans: 4,
+  },
+  {
+    question: "CSSda qaysi xususiyat elementni yoniga suradi?",
+    option1: "float",
+    option2: "position",
+    option3: "align",
+    option4: "location",
+    ans: 1,
+  },
+  {
+    question: "CSSda qaysi xususiyat elementni pastga suradi?",
+    option1: "float",
+    option2: "position",
+    option3: "align",
+    option4: "location",
+    ans: 2,
+  },
+  {
+    question: "CSSda qaysi xususiyat elementni yuqoriga suradi?",
+    option1: "float",
+    option2: "position",
+    option3: "align",
+    option4: "location",
+    ans: 3,
+  },
+  {
+    question: "Css da scale xususiyati nima vazifani bajaradi",
+    option1: "element hajmini o'zgartiradi",
+    option2: "element o'lchamini o'zgartiradi",
+    option3: "element kattaligini o'zgartiradi",
+    option4: "element rangini o'zgartiradi",
     ans: 1,
   },
 ];

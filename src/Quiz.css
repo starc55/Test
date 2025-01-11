@@ -16,9 +16,23 @@ body {
   width: 2vw;
 }
 .timer {
+  font-size: 1.2vw;
   display: flex;
   gap: 0.5rem;
 }
+.timer-warning {
+  color: rgb(236, 106, 106);
+  animation: scale 0.5s infinite alternate;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 hr {
   margin-bottom: 1rem;
 }
@@ -253,5 +267,12 @@ ul li {
   .radiogroup {
     width: 80vw;
     left: 10%;
+    margin-top: 55% !important;
+  }
+  .luck {
+    font-size: 4vw;
+  }
+  .clock {
+    width: 4vw;
   }
 }

@@ -43,7 +43,9 @@ const Quiz = ({ data }) => {
       ]);
     } else {
       if (!selectedAnswer) {
-        toast.warning("Iltimos variantlardan birini tanlang !"); // Show custom warning notification
+        toast.warning("Iltimos variantlardan birini tanlang !", {
+          autoClose: 2000,
+        }); // Show custom warning notification
         return;
       }
 
@@ -137,7 +139,7 @@ const Quiz = ({ data }) => {
           <p className="test_quiz">
             Quiz: {currentQuestionIndex + 1} of {data.length}
           </p>
-          <p className="timer">
+          <p className={`timer ${timeLeft < 10 ? "timer-warning" : ""}`}>
             Time Left: {timeLeft}s{" "}
             <img src={clock} alt="clock_test" className="clock" />
           </p>
