@@ -470,7 +470,7 @@ const quizData = [
     option2: "margin-bottom",
     option3: "margin-right",
     option4: "margin-left",
-    ans: 1,
+    ans: 2,
   },
 ];
 
