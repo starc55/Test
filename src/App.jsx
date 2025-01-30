@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Quiz from "./Quiz";
-import StartPage from "./StartPage";
+import Quiz from "./Quiz.jsx";
+import StartPage from "./StartPage.jsx";
 import quizData from "./data/data.js";
 import "./App.css"; // Add your custom styles here
 
