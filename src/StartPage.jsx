@@ -39,8 +39,9 @@ const StartPage = ({ onStart }) => {
       >
         <h3>Qoidalar:</h3>
         <ul>
-          <li>❗ Har bir savol uchun 35 sekund vaqt ajratilgan</li>
-          <li>❗ Testda 55 dona savol mavjud</li>
+          <li>❗ Har bir savol uchun 40 sekund vaqt ajratilgan</li>
+          <li>❗ Testda 60 dona savol mavjud</li>
+          <li>❗ Test o'z ichiga HTML, CSS , Bulma test savollarini olgan</li>
           <li>
             ❗ Har bir savoldagi variantni vaqt tugashidan oldin belgilang
           </li>
