@@ -1,4 +1,6 @@
-/* From Uiverse.io by Shoh2008 */
+body{
+  height: 100vh;
+}
 .loader {
   display: block;
   width: 84px;

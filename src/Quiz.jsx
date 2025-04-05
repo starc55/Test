@@ -7,7 +7,7 @@ import clock from "./svg/clock.png";
 const Quiz = ({ data }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [timeLeft, setTimeLeft] = useState(40); // 15 seconds for each question
+  const [timeLeft, setTimeLeft] = useState(35); 
   const [results, setResults] = useState([]);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
@@ -62,7 +62,7 @@ const Quiz = ({ data }) => {
     if (currentQuestionIndex < data.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
       setSelectedAnswer(null);
-      setTimeLeft(40); // Reset timer for the next question
+      setTimeLeft(35); // Reset timer for the next question
     } else {
       setQuizCompleted(true);
     }
@@ -75,7 +75,7 @@ const Quiz = ({ data }) => {
   const handleRefresh = () => {
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
-    setTimeLeft(40);
+    setTimeLeft(35);
     setResults([]);
     setQuizCompleted(false);
   };
