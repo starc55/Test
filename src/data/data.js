@@ -69,7 +69,7 @@ const jsBasicToLoopsTests = [
     option2: "object",
     option3: "list",
     option4: "undefined",
-    ans: 2,
+    ans: 1,
   },
   {
     question: "`console.log()` nima qiladi?",
