@@ -40,7 +40,7 @@ const StartPage = ({ onStart }) => {
         <h3>Qoidalar:</h3>
         <ul>
           <li>❗ Har bir savol uchun 40 sekund vaqt ajratilgan</li>
-          <li>❗ Testda 20 dona savol mavjud</li>
+          <li>❗ Testda 25 dona savol mavjud</li>
           <li>❗ Test o'z ichiga JavaScript test savollarini olgan</li>
           <li>
             ❗ Har bir savoldagi variantni vaqt tugashidan oldin belgilang
